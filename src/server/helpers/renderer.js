@@ -1,11 +1,14 @@
 import React from 'react';
 import { renderToString } from "react-dom/server";
+import { StaticRouter } from 'react-router-dom'
 
 import App from '../../shared/App';
 
-export default () => {
+export default (request) => {
   const markup = renderToString(
-    <App />
+    <StaticRouter location={request.path} context={{}}>
+      <App />
+    </StaticRouter>
   )
 
   return `<!DOCTYPE html>

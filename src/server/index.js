@@ -25,9 +25,9 @@ async function start() {
       }
     }, {
       method: 'GET',
-      path: '/',
+      path: '/{any*}',
       handler: (request, h) => {
-        return renderer();
+        return renderer(request);
       }
     }]);
 
