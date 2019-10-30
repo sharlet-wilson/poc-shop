@@ -14,7 +14,7 @@ async function start() {
   try {
     await server.register(Inert);
 
-    server.route({
+    server.route([{
       method: 'GET',
       path: '/assets/{param*}',
       options: {
@@ -26,14 +26,14 @@ async function start() {
         },
       }
     }, {
-        method: 'GET',
-        path: '/',
-        handler: (request, h) => {
-          const markup = renderToString(
-            <App />
-          )
+      method: 'GET',
+      path: '/',
+      handler: (request, h) => {
+        const markup = renderToString(
+          <App />
+        )
 
-          return `<!DOCTYPE html>
+        return `<!DOCTYPE html>
           <html>
             <head>
               <title>POC Shop</title>
@@ -43,8 +43,8 @@ async function start() {
               <script type='text/javascript' src='/assets/bundle.js' defer></script>
             </body>
           </html>`
-        }
-      });
+      }
+    }]);
 
     await server.start();
     console.log(`Server running on: ${server.info.uri}`);
