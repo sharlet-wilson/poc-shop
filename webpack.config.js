@@ -1,38 +1,72 @@
-const path = require('path'),
-  webpack = require('webpack'),
-  browserConfig = {
-    resolve: {
-      extensions: ['*', '.js', '.jsx', '.json']
-    },
-    target: 'web',
-    mode: 'development',
-    entry: ['./src/browser/index.js'],
-    output: {
-      path: path.resolve(__dirname, 'assets'),
-      filename: 'bundle.js',
-      publicPath: '/'
-    },
-    module: {
-      rules: [
-        {
-          test: /\.js$/,
-          use: 'babel-loader',
-        },
-        {
-          test: /\.json($|\?)/,
-          use: 'json-loader',
-          type: 'javascript/auto'
-        }
-      ]
-    },
-    plugins: [
-      new webpack.DefinePlugin({
-        __isBrowser__: "true",
-        'process.env': {
-          __isBrowser__: true
-        }
-      })
-    ]
-  }
+const path = require('path');
+const webpack = require('webpack');
+const nodeExternals = require('webpack-node-externals');
 
-module.exports = [browserConfig]
+const browserConfig = {
+  resolve: {
+    extensions: ['*', '.js', '.jsx', '.json']
+  },
+  target: 'web',
+  mode: 'development',
+  entry: ['./src/browser/index.js'],
+  output: {
+    path: path.resolve(__dirname, 'assets'),
+    filename: 'bundle.js',
+    publicPath: '/'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: 'babel-loader',
+      },
+      {
+        test: /\.json($|\?)/,
+        use: 'json-loader',
+        type: 'javascript/auto'
+      }
+    ]
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      __isBrowser__: "true",
+      'process.env': {
+        __isBrowser__: true
+      }
+    })
+  ]
+};
+const serverConfig = {
+  target: 'node',
+  externals: [nodeExternals()],
+  mode: 'development',
+  entry: ['@babel/polyfill', './src/server/index.js'],
+  output: {
+    path: path.resolve(__dirname, 'build'),
+    filename: 'server.js',
+    publicPath: '/'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: 'babel-loader',
+      },
+      {
+        test: /\.json($|\?)/,
+        use: 'json-loader',
+        type: 'javascript/auto'
+      }
+    ]
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      __isBrowser__: "false",
+      'process.env': {
+        __isBrowser__: false
+      }
+    })
+  ]
+};
+
+module.exports = [browserConfig, serverConfig]

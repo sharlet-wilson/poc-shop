@@ -4,22 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && nodemon --exec babel-node src/server"
+    "dev:build": "webpack -w",
+    "dev:start-server": "nodemon build/server --watch build",
+    "start": "npm-run-all --parallel dev:*"
   },
   "author": "Sharlet Hannah Wilson",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
-    "@babel/node": "^7.6.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "babel-loader": "^8.0.6",
     "json-loader": "^0.5.7",
     "nodemon": "^1.19.4",
+    "npm-run-all": "^4.1.5",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
     "@hapi/hapi": "^18.4.0",
