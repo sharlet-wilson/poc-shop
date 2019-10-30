@@ -1,9 +1,7 @@
 import Hapi from '@hapi/hapi';
 import Inert from '@hapi/inert';
-import React from 'react';
-import { renderToString } from "react-dom/server";
 
-import App from '../shared/App';
+import renderer from './helpers/renderer';
 
 async function start() {
   const server = Hapi.server({
@@ -29,20 +27,7 @@ async function start() {
       method: 'GET',
       path: '/',
       handler: (request, h) => {
-        const markup = renderToString(
-          <App />
-        )
-
-        return `<!DOCTYPE html>
-          <html>
-            <head>
-              <title>POC Shop</title>
-            </head>
-            <body>
-              <div id='app'>${markup}</div>
-              <script type='text/javascript' src='/assets/bundle.js' defer></script>
-            </body>
-          </html>`
+        return renderer();
       }
     }]);
 
