@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
+import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+import ProductList from './containers/ProductList';
 
 class App extends Component {
   render() {
@@ -7,7 +9,7 @@ class App extends Component {
       <div>
         <Switch>
           <Route path="/" exact>
-            Product Listing Page
+            <ProductList />
           </Route>
           <Route path="/cart" exact>
             Cart Page

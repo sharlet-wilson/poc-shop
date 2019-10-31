@@ -40,7 +40,7 @@ const serverConfig = {
   target: 'node',
   externals: [nodeExternals()],
   mode: 'development',
-  entry: ['@babel/polyfill', './src/server/index.js'],
+  entry: ['./src/server/index.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'server.js',

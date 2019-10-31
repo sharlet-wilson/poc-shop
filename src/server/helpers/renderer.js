@@ -1,14 +1,17 @@
 import React from 'react';
 import { renderToString } from "react-dom/server";
-import { StaticRouter } from 'react-router-dom'
+import { StaticRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
 import App from '../../shared/App';
 
-export default (request) => {
+export default (request, store) => {
   const markup = renderToString(
-    <StaticRouter location={request.path} context={{}}>
-      <App />
-    </StaticRouter>
+    <Provider store={store}>
+      <StaticRouter location={request.path} context={{}}>
+        <App />
+      </StaticRouter>
+    </Provider>
   )
 
   return `<!DOCTYPE html>
