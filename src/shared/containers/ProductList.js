@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { FETCH_PRODUCTS } from '../store/actions';
+import ProductListView from '../components/ProductList';
 
 class ProductList extends Component {
   componentDidMount() {
@@ -9,10 +10,7 @@ class ProductList extends Component {
   }
 
   render() {
-    return (<div>
-      Product Listing Page
-      {this.props.products.map((product) => <li key={product.id}>{product.name}</li>)}
-    </div>)
+    return (<ProductListView products={this.props.products} />)
   }
 
 }
