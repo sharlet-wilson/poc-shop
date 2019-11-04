@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { FETCH_PRODUCTS } from '../actions';
+import { FETCH_PRODUCTS } from '../store/actions';
 
 class ProductList extends Component {
   componentDidMount() {
