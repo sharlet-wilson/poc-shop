@@ -2,9 +2,12 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 import Hapi from '@hapi/hapi';
 import Inert from '@hapi/inert';
+import { matchRoutes } from 'react-router-config';
 
 import renderer from './helpers/renderer';
 import createStore from './helpers/createStore';
+import routes from '../shared/routes';
+import rootSaga from '../shared/store/actions';
 
 async function start() {
   const server = Hapi.server({
@@ -28,10 +31,25 @@ async function start() {
       }
     }, {
       method: 'GET',
+      path: '/favicon.ico',
+      handler: () => {
+        return {};
+      }
+    }, {
+      method: 'GET',
       path: '/{any*}',
-      handler: (request, h) => {
+      handler: async (request) => {
         const store = createStore();
-        return renderer(request, store);
+        store.runSaga(rootSaga);
+        renderer(request, store);
+        const promises = matchRoutes(routes, request.path).map(({ route }) => {
+          return route.loadData
+            ? route.loadData(store)
+            : null
+        });
+        return Promise.all(promises).then(async () => {
+          return renderer(request, store);
+        })
       }
     }]);
 

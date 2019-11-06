@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { FETCH_PRODUCTS } from '../store/actions';
 import ProductListView from '../components/ProductList';
 
-function ProductList() {
+const ProductList = () => {
   const products = useSelector(state => state.products);
   const dispatch = useDispatch();
 
@@ -14,5 +14,10 @@ function ProductList() {
 
   return (<ProductListView products={products} />)
 }
+
+
+const loadData = (store) => store.dispatch({ type: FETCH_PRODUCTS });
+
+export { loadData };
 
 export default ProductList;
