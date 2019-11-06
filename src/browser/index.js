@@ -6,10 +6,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import createSagaMiddleware from 'redux-saga';
+import { renderRoutes } from 'react-router-config';
 
-import App from '../shared/App';
 import reducers from '../shared/store/reducers';
 import rootSaga from '../shared/store/actions';
+import routes from '../shared/routes';
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducers, {}, applyMiddleware(sagaMiddleware));
@@ -18,7 +19,7 @@ sagaMiddleware.run(rootSaga);
 hydrate(
   <Provider store={store}>
     <BrowserRouter>
-      <App />
+      <div>{renderRoutes(routes)}</div>
     </BrowserRouter>
   </Provider>,
   document.getElementById('app')
