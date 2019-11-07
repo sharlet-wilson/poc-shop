@@ -1,11 +1,10 @@
 import React from 'react';
-import ProductList, { loadData } from './containers/ProductList';
+import Home from './components/home';
 
 export default [{
   path: '/',
-  component: ProductList,
+  component: Home,
   exact: true,
-  loadData,
 }, {
   path: '/cart',
   component: () => (<div>Cart Page</div>)

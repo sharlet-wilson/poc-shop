@@ -28,6 +28,17 @@ async function start() {
       }
     }, {
       method: 'GET',
+      path: '/public/{param*}',
+      options: {
+        auth: false,
+        handler: {
+          directory: {
+            path: 'public'
+          }
+        },
+      }
+    }, {
+      method: 'GET',
       path: '/{any*}',
       handler: (request, h) => {
         const store = createStore();
