@@ -24,7 +24,19 @@ const browserConfig = {
         test: /\.json($|\?)/,
         use: 'json-loader',
         type: 'javascript/auto'
-      }
+      },
+      {
+        test: /\.css$/i,
+        use: [
+          'isomorphic-style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1
+            }
+          },
+        ]
+      },
     ]
   },
   plugins: [
@@ -56,7 +68,19 @@ const serverConfig = {
         test: /\.json($|\?)/,
         use: 'json-loader',
         type: 'javascript/auto'
-      }
+      },
+      {
+        test: /\.css$/i,
+        use: [
+          'isomorphic-style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1
+            }
+          },
+        ]
+      },
     ]
   },
   plugins: [

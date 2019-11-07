@@ -7,6 +7,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import createSagaMiddleware from 'redux-saga';
 import { renderRoutes } from 'react-router-config';
+import StyleContext from 'isomorphic-style-loader/StyleContext';
 
 import reducers from '../shared/store/reducers';
 import rootSaga from '../shared/store/actions';
@@ -16,10 +17,17 @@ const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducers, {}, applyMiddleware(sagaMiddleware));
 sagaMiddleware.run(rootSaga);
 
+const insertCss = (...styles) => {
+  const removeCss = styles.map(style => style._insertCss())
+  return () => removeCss.forEach(dispose => dispose())
+}
+
 hydrate(
   <Provider store={store}>
     <BrowserRouter>
-      <div>{renderRoutes(routes)}</div>
+      <StyleContext.Provider value={{ insertCss }}>
+        <div>{renderRoutes(routes)}</div>
+      </StyleContext.Provider>
     </BrowserRouter>
   </Provider>,
   document.getElementById('app')
