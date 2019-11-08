@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-export default () => {
-  const [activeFilter, setActiveFilter] = useState(0)
+export default ({ filters }) => {
+  const [activeFilter, setActiveFilter] = useState(null)
 
   const Container = styled.ul`
     padding: 0px;
@@ -11,6 +11,7 @@ export default () => {
     border-radius: 4px;
     width: 80%;
     margin: auto;
+    min-width: 170px;
   `;
   const AccordianItem = styled.li`
     padding: 12px 15px;
@@ -27,7 +28,6 @@ export default () => {
     border-top-right-radius: 4px;
   `;
   const AccordianButton = styled(AccordianItem)`
-    background-color: #ffffff;
     color: #555555;
     cursor: pointer;
     border-bottom: 1px solid #dddddd;
@@ -39,31 +39,41 @@ export default () => {
     overflow: hidden;
     display: ${props => props.show ? "block" : "none"};
   `;
-  const PlusIcon = styled.img`
+  const InnerPanel = styled(Panel)`
+    background-color: lightgray;
+  `;
+  const Icon = styled.img`
     position: absolute;
     top: 4px;
     right: 12px;
+    @media (max-width: 425px) {
+      height: 20px;
+      top: 10px;
+    }
   `;
 
-  const togglePanel = () => {
-    console.log("clicked-------------");
+  const togglePanel = (id) => {
+    (activeFilter === id) ? setActiveFilter(null) : setActiveFilter(id);
   }
 
   return (<Container>
     <AccordianTitle>Filters</AccordianTitle>
-    <AccordianButton onClick={togglePanel}>Section 1
-      <PlusIcon src="/public/icons/Icon.svg"></PlusIcon>
-    </AccordianButton>
-    <Panel show>
-      <AccordianButton>Men</AccordianButton>
-      <AccordianButton>Women</AccordianButton>
-      <AccordianButton>Kitchen</AccordianButton>
-      <AccordianButton>Mobiles/Laptops</AccordianButton>
-    </Panel>
-    <AccordianButton>Section 2
-      <Panel>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </Panel>
-    </AccordianButton>
+    {filters.map(filter => (
+      <React.Fragment key={filter.id}>
+        <AccordianButton onClick={() => togglePanel(filter.id)}>
+          {!filter.types && <input type="checkbox" value={filter.name} />}
+          {filter.name}
+          {filter.types &&
+            (activeFilter === filter.id
+              ? <Icon src="/public/icons/FontAwesome47.svg"></Icon>
+              : <Icon src="/public/icons/Icon.svg"></Icon>)}
+        </AccordianButton>
+        {filter.types && <InnerPanel show={activeFilter === filter.id}>
+          {filter.types.map(type => <AccordianButton key={type}>
+            <input type="checkbox" value={type} />{type}
+          </AccordianButton>)}
+        </InnerPanel>}
+      </React.Fragment>
+    ))}
   </Container>)
 }

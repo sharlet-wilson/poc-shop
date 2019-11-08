@@ -6,7 +6,9 @@
   "scripts": {
     "dev:build": "webpack -w",
     "dev:start-server": "nodemon build/server --watch build",
-    "start": "npm-run-all --parallel dev:*"
+    "start": "npm-run-all --parallel dev:*",
+    "storybook": "start-storybook -s ./ -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Sharlet Hannah Wilson",
   "license": "ISC",
@@ -16,6 +18,10 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
     "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.6",
     "core-js": "^3.3.5",
