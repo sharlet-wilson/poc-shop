@@ -18,12 +18,16 @@ export default ({ addedQuantity, availableQuantity, onQuantityChange }) => {
     border: none;
     position: relative;
     top: 2px;
-    cursor: pointer;
+    cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   `;
 
   return (<div>
-    <Button><img style={{ height: '17px' }} src="/public/icons/FontAwesome47.svg"></img></Button>
+    <Button disabled={!addedQuantity} onClick={() => onQuantityChange(-1)}>
+      <img style={{ height: '17px' }} src="/public/icons/FontAwesome47.svg"></img>
+    </Button>
     <Quantity>{addedQuantity}</Quantity>
-    <Button><img src="/public/icons/PixleIcon.svg"></img></Button>
+    <Button disabled={addedQuantity === availableQuantity} onClick={() => onQuantityChange(1)}>
+      <img src="/public/icons/PixleIcon.svg"></img>
+    </Button>
   </div>)
 }
