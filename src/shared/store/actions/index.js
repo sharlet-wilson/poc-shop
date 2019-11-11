@@ -13,7 +13,7 @@ export function* fetchProducts() {
       categoryName: "Mobiles",
       items: [{
         id: "i203",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -23,7 +23,7 @@ export function* fetchProducts() {
         discount: '10%',
       }, {
         id: "i275",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 0,
@@ -32,7 +32,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i233",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -41,7 +41,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i763",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -54,7 +54,7 @@ export function* fetchProducts() {
       categoryName: "Laptops",
       items: [{
         id: "i653",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -63,7 +63,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i125",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -72,7 +72,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i230",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -81,7 +81,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i263",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -94,7 +94,7 @@ export function* fetchProducts() {
       categoryName: null,
       items: [{
         id: "i633",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -103,7 +103,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i225",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -112,7 +112,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i970",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -121,7 +121,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i523",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -130,7 +130,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i564",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
@@ -139,7 +139,7 @@ export function* fetchProducts() {
         itemsInStock: 10,
       }, {
         id: "i273",
-        thumbnail: "https://source.unsplash.com/random/241/200",
+        thumbnail: "https://source.unsplash.com/random/241x200",
         name: "Google Pixel",
         description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
         rating: 4,
