@@ -29,12 +29,12 @@ export default ({ noOfRatings, rating }) => {
   let ratings = [];
   if (noOfRatings) {
     for (let i = 0; i < rating; i++) {
-      ratings.push(<Star src="/public/icons/Star.svg"></Star>)
+      ratings.push(<Star key={i} src="/public/icons/Star.svg"></Star>)
     }
-    for (let i = 0; i < (5 - rating); i++) {
-      ratings.push(<Star src="/public/icons/StarGray.svg"></Star>)
+    for (let i = rating; i < 5; i++) {
+      ratings.push(<Star key={i} src="/public/icons/StarGray.svg"></Star>)
     }
-    ratings.push(<NumberOfRatings>({noOfRatings})</NumberOfRatings>)
+    ratings.push(<NumberOfRatings key={5}>({noOfRatings})</NumberOfRatings>)
   } else {
     ratings = (<NoRatings>The product has not been rated.</NoRatings>)
   }

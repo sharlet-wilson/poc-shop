@@ -21,13 +21,17 @@ export default ({ addedQuantity, availableQuantity, onQuantityChange }) => {
     cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   `;
 
-  return (<div>
-    <Button disabled={!addedQuantity} onClick={() => onQuantityChange(-1)}>
+  const Container = styled.div`
+    display: ${props => props.addedQuantity ? 'block' : 'none'};
+  `;
+
+  return (<Container addedQuantity={addedQuantity}>
+    <Button onClick={() => onQuantityChange(-1)}>
       <img style={{ height: '17px' }} src="/public/icons/FontAwesome47.svg"></img>
     </Button>
     <Quantity>{addedQuantity}</Quantity>
     <Button disabled={addedQuantity === availableQuantity} onClick={() => onQuantityChange(1)}>
       <img src="/public/icons/PixleIcon.svg"></img>
     </Button>
-  </div>)
+  </Container>)
 }

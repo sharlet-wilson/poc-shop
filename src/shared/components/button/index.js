@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default ({ type, text }) => {
+export default ({ type, text, handleClick }) => {
   const Button = styled.button`
     width: 130px;
     height: 34px;
@@ -13,5 +13,5 @@ export default ({ type, text }) => {
     cursor: pointer;
   `;
 
-  return (<Button type={type}>{text}</Button>)
+  return (<Button type={type} onClick={handleClick}>{text}</Button>)
 }

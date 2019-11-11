@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import Accordian from '../../components/accordian';
 import Header from '../../components/header';
-import ProductList from '../../components/ProductList';
+import ProductList from '../../components/productList';
 import s from './home.css';
 import { FETCH_PRODUCTS } from '../../store/actions';
 
