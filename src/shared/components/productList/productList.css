@@ -1,0 +1,51 @@
+.title {
+  font-weight: normal;
+  font-size: 37px;
+  color: #222222;
+  margin-top: 0px;
+}
+
+.product-list {
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+  /* make it smooth on iOS */
+  -webkit-overflow-scrolling: touch;
+  /* hide scrollbar on Mozilla */
+  overflow: -moz-scrollbars-none;
+  /* hide scrollbar on IE */
+  -ms-overflow-style: none;
+}
+/* hide scrollbar on Chrome */
+.product-list::-webkit-scrollbar {
+  width: 0 !important
+}
+
+.scroll-btn {
+  border: 2px solid #dddddd;
+  background-color: #428bca;
+  border-radius: 16px;
+  font-size: large;
+  padding: 3px 8px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+.scroll-btn.left {
+  left: 11px;
+}
+.scroll-btn.right {
+  right: 11px;
+}
+.scroll-btn:hover {
+  background-color: white;
+  color: #428bca;
+}
+
+.category-wrapper {
+  padding: 0 30px;
+  position: relative;
+  margin-bottom: 70px;
+}

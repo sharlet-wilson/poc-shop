@@ -13,6 +13,8 @@ export default ({ product, qtyInCart, qtyAvailable, onQtyChange }) => {
     border-radius: 4px;
     background-color: #ffffff;
     position: relative;
+    flex-shrink: 0;
+    margin-right: 23px;
   `;
 
   const Thumbnail = styled.img`

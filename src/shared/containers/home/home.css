@@ -6,18 +6,38 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding-top: 89px;
 }
 
 .content-container .filters {
-  flex: 0 1 18%;
+  flex: 0 1 16%;
 }
 
 .content-container .content {
-  flex: 0 1 78%;
+  flex: 1 1 80%;
+  min-width: 0;
 }
 
-@media (min-width: 500px) {
+.filter-toggle {
+  display: none;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: #ffffff;
+  border: 1px solid #428bca;
+  border-radius: 4px;
+  background-color: #428bca;
+  cursor: pointer;
+  margin-top: 10px
+}
+
+@media (max-width: 768px) {
   .content-container {
-    padding-top: 89px;
+    padding-top: 10px;
+  }
+  .filter-toggle, .filters.show {
+    display: block;
+  }
+  .filters {
+    display: none;
   }
 }

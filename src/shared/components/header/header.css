@@ -47,7 +47,7 @@
   font-size: 23px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .main-header {
     height: 100%;
     padding: 10px;

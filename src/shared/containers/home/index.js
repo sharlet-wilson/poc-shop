@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import useStyles from 'isomorphic-style-loader/useStyles'
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -9,6 +9,7 @@ import s from './home.css';
 import { FETCH_PRODUCTS } from '../../store/actions';
 
 export default () => {
+  const [filtersClass, setFiltersClass] = useState("");
   const data = useSelector(state => state.products);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -16,11 +17,21 @@ export default () => {
   }, []);
 
   useStyles(s);
+
+  const toggleFilter = () => {
+    if (filtersClass) {
+      setFiltersClass("");
+    } else {
+      setFiltersClass("show");
+    }
+  }
+
   return (
-    <div className="main-container">
+    <div style={{ "position": "relative" }} className="main-container">
       <Header />
+      <button onClick={toggleFilter} className="filter-toggle">{filtersClass ? "Hide" : "Show"} Filters</button>
       <div className="content-container">
-        <div className="filters">
+        <div className={`filters ${filtersClass}`}>
           <Accordian filters={data.filters || []} />
         </div>
         <div className="content">
