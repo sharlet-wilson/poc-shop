@@ -1,0 +1,1215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Accordian with options 1`] = `
+<div
+  className="main-container"
+>
+  <ul
+    className="accordian__Container-sc-1xwttih-0 caYAVr"
+  >
+    <li
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianTitle-sc-1xwttih-2 iqXqf"
+    >
+      Filters
+    </li>
+    <li
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      onClick={[Function]}
+    >
+      Category
+      <img
+        className="accordian__Icon-sc-1xwttih-6 lhDShU"
+        src="/public/icons/Icon.svg"
+      />
+    </li>
+    <ul
+      className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
+    >
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Mobiles"
+        />
+        Mobiles
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Laptops"
+        />
+        Laptops
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Clothing"
+        />
+        Clothing
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Footwear"
+        />
+        Footwear
+      </li>
+    </ul>
+    <li
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      onClick={[Function]}
+    >
+      Price
+      <img
+        className="accordian__Icon-sc-1xwttih-6 lhDShU"
+        src="/public/icons/Icon.svg"
+      />
+    </li>
+    <ul
+      className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
+    >
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="0-100"
+        />
+        0-100
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="100-200"
+        />
+        100-200
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="200-300"
+        />
+        200-300
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="300-400"
+        />
+        300-400
+      </li>
+    </ul>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Accordian without options 1`] = `
+<div
+  className="main-container"
+>
+  <ul
+    className="accordian__Container-sc-1xwttih-0 caYAVr"
+  >
+    <li
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianTitle-sc-1xwttih-2 iqXqf"
+    >
+      Filters
+    </li>
+    <li
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      onClick={[Function]}
+    >
+      Category
+      <img
+        className="accordian__Icon-sc-1xwttih-6 lhDShU"
+        src="/public/icons/Icon.svg"
+      />
+    </li>
+    <ul
+      className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
+    >
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Mobiles"
+        />
+        Mobiles
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Laptops"
+        />
+        Laptops
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Clothing"
+        />
+        Clothing
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="Footwear"
+        />
+        Footwear
+      </li>
+    </ul>
+    <li
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      onClick={[Function]}
+    >
+      Price
+      <img
+        className="accordian__Icon-sc-1xwttih-6 lhDShU"
+        src="/public/icons/Icon.svg"
+      />
+    </li>
+    <ul
+      className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
+    >
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="0-100"
+        />
+        0-100
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="100-200"
+        />
+        100-200
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="200-300"
+        />
+        200-300
+      </li>
+      <li
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      >
+        <input
+          type="checkbox"
+          value="300-400"
+        />
+        300-400
+      </li>
+    </ul>
+    <li
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      onClick={[Function]}
+    >
+      <input
+        type="checkbox"
+        value="Exclude Out of Stock"
+      />
+      Exclude Out of Stock
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Button danger button 1`] = `
+<div
+  className="main-container"
+>
+  <button
+    className="button__Button-sc-1n9r74q-0 lphHNz"
+    type="danger"
+  >
+    Remove from Cart
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button primary button 1`] = `
+<div
+  className="main-container"
+>
+  <button
+    className="button__Button-sc-1n9r74q-0 fZeAmF"
+    type="primary"
+  >
+    Add to Cart
+  </button>
+</div>
+`;
+
+exports[`Storyshots ProductCard default 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="productCard__Container-a6h57n-0 cjUJu"
+  >
+    <img
+      className="productCard__Thumbnail-a6h57n-1 jkPrSQ"
+      src="https://source.unsplash.com/random/241x200"
+    />
+    <div
+      className="productCard__Title-a6h57n-2 dzcCmX"
+      title="Google Pixel"
+    >
+      Google Pixel
+    </div>
+    <div
+      className="productCard__Description-a6h57n-3 eWeMbv"
+    >
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </div>
+    <div
+      className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+    >
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/StarGray.svg"
+      />
+      <span
+        className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+      >
+        (
+        10
+        )
+      </span>
+    </div>
+    <div
+      className="productCard__Price-a6h57n-6 bwIQUG"
+    >
+      $
+      333.33
+    </div>
+    <div
+      className="productCard__AddItem-a6h57n-7 hFbztA"
+    >
+      <button
+        className="button__Button-sc-1n9r74q-0 fZeAmF"
+        onClick={[Function]}
+        type="primary"
+      >
+        Add to Cart
+      </button>
+      <div
+        className="productCard__QuantityBoxWrapper-a6h57n-8 fKyRiy"
+      >
+        <div
+          className="quantityBox__Container-cw31we-2 rPdmN"
+        >
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/FontAwesome47.svg"
+              style={
+                Object {
+                  "height": "17px",
+                }
+              }
+            />
+          </button>
+          <div
+            className="quantityBox__Quantity-cw31we-0 gPxgSw"
+          />
+          <button
+            className="quantityBox__Button-cw31we-1 gnOEej"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/PixleIcon.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProductCard discount 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="productCard__Container-a6h57n-0 cjUJu"
+  >
+    <img
+      className="productCard__Thumbnail-a6h57n-1 jkPrSQ"
+      src="https://source.unsplash.com/random/241x200"
+    />
+    <div
+      className="productCard__Discount-a6h57n-4 cztDlw"
+    >
+      <span
+        className="productCard__DiscountText-a6h57n-5 cEfeKh"
+      >
+        10%
+      </span>
+    </div>
+    <div
+      className="productCard__Title-a6h57n-2 dzcCmX"
+      title="Google Pixel"
+    >
+      Google Pixel
+    </div>
+    <div
+      className="productCard__Description-a6h57n-3 eWeMbv"
+    >
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </div>
+    <div
+      className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+    >
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/StarGray.svg"
+      />
+      <span
+        className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+      >
+        (
+        10
+        )
+      </span>
+    </div>
+    <div
+      className="productCard__Price-a6h57n-6 bwIQUG"
+    >
+      $
+      333.33
+    </div>
+    <div
+      className="productCard__AddItem-a6h57n-7 hFbztA"
+    >
+      <button
+        className="button__Button-sc-1n9r74q-0 fZeAmF"
+        onClick={[Function]}
+        type="primary"
+      >
+        Add to Cart
+      </button>
+      <div
+        className="productCard__QuantityBoxWrapper-a6h57n-8 fKyRiy"
+      >
+        <div
+          className="quantityBox__Container-cw31we-2 rPdmN"
+        >
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/FontAwesome47.svg"
+              style={
+                Object {
+                  "height": "17px",
+                }
+              }
+            />
+          </button>
+          <div
+            className="quantityBox__Quantity-cw31we-0 gPxgSw"
+          />
+          <button
+            className="quantityBox__Button-cw31we-1 gnOEej"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/PixleIcon.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProductCard long product description 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="productCard__Container-a6h57n-0 cjUJu"
+  >
+    <img
+      className="productCard__Thumbnail-a6h57n-1 jkPrSQ"
+      src="https://source.unsplash.com/random/241x200"
+    />
+    <div
+      className="productCard__Title-a6h57n-2 dzcCmX"
+      title="Google Pixel"
+    >
+      Google Pixel
+    </div>
+    <div
+      className="productCard__Description-a6h57n-3 eWeMbv"
+    >
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </div>
+    <div
+      className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+    >
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/StarGray.svg"
+      />
+      <span
+        className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+      >
+        (
+        10
+        )
+      </span>
+    </div>
+    <div
+      className="productCard__Price-a6h57n-6 bwIQUG"
+    >
+      $
+      333.33
+    </div>
+    <div
+      className="productCard__AddItem-a6h57n-7 hFbztA"
+    >
+      <button
+        className="button__Button-sc-1n9r74q-0 fZeAmF"
+        onClick={[Function]}
+        type="primary"
+      >
+        Add to Cart
+      </button>
+      <div
+        className="productCard__QuantityBoxWrapper-a6h57n-8 fKyRiy"
+      >
+        <div
+          className="quantityBox__Container-cw31we-2 rPdmN"
+        >
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/FontAwesome47.svg"
+              style={
+                Object {
+                  "height": "17px",
+                }
+              }
+            />
+          </button>
+          <div
+            className="quantityBox__Quantity-cw31we-0 gPxgSw"
+          />
+          <button
+            className="quantityBox__Button-cw31we-1 gnOEej"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/PixleIcon.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProductCard long product name 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="productCard__Container-a6h57n-0 cjUJu"
+  >
+    <img
+      className="productCard__Thumbnail-a6h57n-1 jkPrSQ"
+      src="https://source.unsplash.com/random/241x200"
+    />
+    <div
+      className="productCard__Title-a6h57n-2 dzcCmX"
+      title="This is Quite a Long Name"
+    >
+      This is Quite a Long Name
+    </div>
+    <div
+      className="productCard__Description-a6h57n-3 eWeMbv"
+    >
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </div>
+    <div
+      className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+    >
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/StarGray.svg"
+      />
+      <span
+        className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+      >
+        (
+        10
+        )
+      </span>
+    </div>
+    <div
+      className="productCard__Price-a6h57n-6 bwIQUG"
+    >
+      $
+      333.33
+    </div>
+    <div
+      className="productCard__AddItem-a6h57n-7 hFbztA"
+    >
+      <button
+        className="button__Button-sc-1n9r74q-0 fZeAmF"
+        onClick={[Function]}
+        type="primary"
+      >
+        Add to Cart
+      </button>
+      <div
+        className="productCard__QuantityBoxWrapper-a6h57n-8 fKyRiy"
+      >
+        <div
+          className="quantityBox__Container-cw31we-2 rPdmN"
+        >
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/FontAwesome47.svg"
+              style={
+                Object {
+                  "height": "17px",
+                }
+              }
+            />
+          </button>
+          <div
+            className="quantityBox__Quantity-cw31we-0 gPxgSw"
+          />
+          <button
+            className="quantityBox__Button-cw31we-1 gnOEej"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/PixleIcon.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProductCard product in cart 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="productCard__Container-a6h57n-0 cjUJu"
+  >
+    <img
+      className="productCard__Thumbnail-a6h57n-1 jkPrSQ"
+      src="https://source.unsplash.com/random/241x200"
+    />
+    <div
+      className="productCard__Title-a6h57n-2 dzcCmX"
+      title="Google Pixel"
+    >
+      Google Pixel
+    </div>
+    <div
+      className="productCard__Description-a6h57n-3 eWeMbv"
+    >
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </div>
+    <div
+      className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+    >
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/StarGray.svg"
+      />
+      <span
+        className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+      >
+        (
+        10
+        )
+      </span>
+    </div>
+    <div
+      className="productCard__Price-a6h57n-6 bwIQUG"
+    >
+      $
+      333.33
+    </div>
+    <div
+      className="productCard__AddItem-a6h57n-7 hFbztA"
+    >
+      <button
+        className="button__Button-sc-1n9r74q-0 lphHNz"
+        onClick={[Function]}
+        type="danger"
+      >
+        Remove from Cart
+      </button>
+      <div
+        className="productCard__QuantityBoxWrapper-a6h57n-8 fKyRiy"
+      >
+        <div
+          className="quantityBox__Container-cw31we-2 gMcelk"
+        >
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/FontAwesome47.svg"
+              style={
+                Object {
+                  "height": "17px",
+                }
+              }
+            />
+          </button>
+          <div
+            className="quantityBox__Quantity-cw31we-0 gPxgSw"
+          >
+            2
+          </div>
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/PixleIcon.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProductCard product not in cart 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="productCard__Container-a6h57n-0 cjUJu"
+  >
+    <img
+      className="productCard__Thumbnail-a6h57n-1 jkPrSQ"
+      src="https://source.unsplash.com/random/241x200"
+    />
+    <div
+      className="productCard__Title-a6h57n-2 dzcCmX"
+      title="Google Pixel"
+    >
+      Google Pixel
+    </div>
+    <div
+      className="productCard__Description-a6h57n-3 eWeMbv"
+    >
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </div>
+    <div
+      className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+    >
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/Star.svg"
+      />
+      <img
+        className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+        src="/public/icons/StarGray.svg"
+      />
+      <span
+        className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+      >
+        (
+        10
+        )
+      </span>
+    </div>
+    <div
+      className="productCard__Price-a6h57n-6 bwIQUG"
+    >
+      $
+      333.33
+    </div>
+    <div
+      className="productCard__AddItem-a6h57n-7 hFbztA"
+    >
+      <button
+        className="button__Button-sc-1n9r74q-0 fZeAmF"
+        onClick={[Function]}
+        type="primary"
+      >
+        Add to Cart
+      </button>
+      <div
+        className="productCard__QuantityBoxWrapper-a6h57n-8 fKyRiy"
+      >
+        <div
+          className="quantityBox__Container-cw31we-2 rPdmN"
+        >
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/FontAwesome47.svg"
+              style={
+                Object {
+                  "height": "17px",
+                }
+              }
+            />
+          </button>
+          <div
+            className="quantityBox__Quantity-cw31we-0 gPxgSw"
+          >
+            0
+          </div>
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/PixleIcon.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ProductCard product not rated 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="productCard__Container-a6h57n-0 cjUJu"
+  >
+    <img
+      className="productCard__Thumbnail-a6h57n-1 jkPrSQ"
+      src="https://source.unsplash.com/random/241x200"
+    />
+    <div
+      className="productCard__Title-a6h57n-2 dzcCmX"
+      title="Google Pixel"
+    >
+      Google Pixel
+    </div>
+    <div
+      className="productCard__Description-a6h57n-3 eWeMbv"
+    >
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    </div>
+    <div
+      className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+    >
+      <span
+        className="ratingBox__NoRatings-sc-1nmm3lw-3 dRlfBa"
+      >
+        The product has not been rated.
+      </span>
+    </div>
+    <div
+      className="productCard__Price-a6h57n-6 bwIQUG"
+    >
+      $
+      333.33
+    </div>
+    <div
+      className="productCard__AddItem-a6h57n-7 hFbztA"
+    >
+      <button
+        className="button__Button-sc-1n9r74q-0 fZeAmF"
+        onClick={[Function]}
+        type="primary"
+      >
+        Add to Cart
+      </button>
+      <div
+        className="productCard__QuantityBoxWrapper-a6h57n-8 fKyRiy"
+      >
+        <div
+          className="quantityBox__Container-cw31we-2 rPdmN"
+        >
+          <button
+            className="quantityBox__Button-cw31we-1 jZfckD"
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/FontAwesome47.svg"
+              style={
+                Object {
+                  "height": "17px",
+                }
+              }
+            />
+          </button>
+          <div
+            className="quantityBox__Quantity-cw31we-0 gPxgSw"
+          />
+          <button
+            className="quantityBox__Button-cw31we-1 gnOEej"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <img
+              src="/public/icons/PixleIcon.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots QuantityBox addedQuantity is 0 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="quantityBox__Container-cw31we-2 rPdmN"
+  >
+    <button
+      className="quantityBox__Button-cw31we-1 jZfckD"
+      onClick={[Function]}
+    >
+      <img
+        src="/public/icons/FontAwesome47.svg"
+        style={
+          Object {
+            "height": "17px",
+          }
+        }
+      />
+    </button>
+    <div
+      className="quantityBox__Quantity-cw31we-0 gPxgSw"
+    >
+      0
+    </div>
+    <button
+      className="quantityBox__Button-cw31we-1 jZfckD"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <img
+        src="/public/icons/PixleIcon.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots QuantityBox items are in stock 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="quantityBox__Container-cw31we-2 gMcelk"
+  >
+    <button
+      className="quantityBox__Button-cw31we-1 jZfckD"
+      onClick={[Function]}
+    >
+      <img
+        src="/public/icons/FontAwesome47.svg"
+        style={
+          Object {
+            "height": "17px",
+          }
+        }
+      />
+    </button>
+    <div
+      className="quantityBox__Quantity-cw31we-0 gPxgSw"
+    >
+      2
+    </div>
+    <button
+      className="quantityBox__Button-cw31we-1 jZfckD"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <img
+        src="/public/icons/PixleIcon.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots QuantityBox no more items are in stock 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="quantityBox__Container-cw31we-2 gMcelk"
+  >
+    <button
+      className="quantityBox__Button-cw31we-1 jZfckD"
+      onClick={[Function]}
+    >
+      <img
+        src="/public/icons/FontAwesome47.svg"
+        style={
+          Object {
+            "height": "17px",
+          }
+        }
+      />
+    </button>
+    <div
+      className="quantityBox__Quantity-cw31we-0 gPxgSw"
+    >
+      3
+    </div>
+    <button
+      className="quantityBox__Button-cw31we-1 gnOEej"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <img
+        src="/public/icons/PixleIcon.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots RatingBox 1 rating 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+  >
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/Star.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/StarGray.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/StarGray.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/StarGray.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/StarGray.svg"
+    />
+    <span
+      className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+    >
+      (
+      5
+      )
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots RatingBox 5 ratings 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+  >
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/Star.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/Star.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/Star.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/Star.svg"
+    />
+    <img
+      className="ratingBox__Star-sc-1nmm3lw-1 jKdDDX"
+      src="/public/icons/Star.svg"
+    />
+    <span
+      className="ratingBox__NumberOfRatings-sc-1nmm3lw-2 hYPGvo"
+    >
+      (
+      10
+      )
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots RatingBox product not rated 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="ratingBox__RatingWrapper-sc-1nmm3lw-0 dDksEq"
+  >
+    <span
+      className="ratingBox__NoRatings-sc-1nmm3lw-3 dRlfBa"
+    >
+      The product has not been rated.
+    </span>
+  </div>
+</div>
+`;

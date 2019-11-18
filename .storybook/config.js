@@ -1,6 +1,7 @@
 import { configure } from '@storybook/react';
+import requireContext from 'require-context.macro';
 
-const req = require.context('../src/shared', true, /\.stories.js$/);
+const req = requireContext('../src/shared', true, /\.stories.js$/);
 
 function loadStories() {
   req.keys().forEach(filename => req(filename));
