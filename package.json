@@ -10,7 +10,7 @@
     "storybook": "start-storybook -s ./ -p 6006",
     "build-storybook": "build-storybook",
     "init-jest": "jest --init",
-    "test": "jest -c jest.config.js"
+    "test": "jest -c jest.config.js --coverage"
   },
   "author": "Sharlet Hannah Wilson",
   "license": "ISC",

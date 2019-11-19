@@ -8,12 +8,12 @@ exports[`Storyshots Accordian with options 1`] = `
     className="accordian__Container-sc-1xwttih-0 caYAVr"
   >
     <li
-      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianTitle-sc-1xwttih-2 iqXqf"
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianTitle-sc-1xwttih-3 fmdAsN"
     >
       Filters
     </li>
     <li
-      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       onClick={[Function]}
     >
       Category
@@ -26,7 +26,7 @@ exports[`Storyshots Accordian with options 1`] = `
       className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
     >
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -35,7 +35,7 @@ exports[`Storyshots Accordian with options 1`] = `
         Mobiles
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -44,7 +44,7 @@ exports[`Storyshots Accordian with options 1`] = `
         Laptops
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -53,7 +53,7 @@ exports[`Storyshots Accordian with options 1`] = `
         Clothing
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -63,7 +63,7 @@ exports[`Storyshots Accordian with options 1`] = `
       </li>
     </ul>
     <li
-      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       onClick={[Function]}
     >
       Price
@@ -76,7 +76,7 @@ exports[`Storyshots Accordian with options 1`] = `
       className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
     >
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -85,7 +85,7 @@ exports[`Storyshots Accordian with options 1`] = `
         0-100
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -94,7 +94,7 @@ exports[`Storyshots Accordian with options 1`] = `
         100-200
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -103,7 +103,7 @@ exports[`Storyshots Accordian with options 1`] = `
         200-300
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -124,12 +124,12 @@ exports[`Storyshots Accordian without options 1`] = `
     className="accordian__Container-sc-1xwttih-0 caYAVr"
   >
     <li
-      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianTitle-sc-1xwttih-2 iqXqf"
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianTitle-sc-1xwttih-3 fmdAsN"
     >
       Filters
     </li>
     <li
-      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       onClick={[Function]}
     >
       Category
@@ -142,7 +142,7 @@ exports[`Storyshots Accordian without options 1`] = `
       className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
     >
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -151,7 +151,7 @@ exports[`Storyshots Accordian without options 1`] = `
         Mobiles
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -160,7 +160,7 @@ exports[`Storyshots Accordian without options 1`] = `
         Laptops
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -169,7 +169,7 @@ exports[`Storyshots Accordian without options 1`] = `
         Clothing
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -179,7 +179,7 @@ exports[`Storyshots Accordian without options 1`] = `
       </li>
     </ul>
     <li
-      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       onClick={[Function]}
     >
       Price
@@ -192,7 +192,7 @@ exports[`Storyshots Accordian without options 1`] = `
       className="accordian__Panel-sc-1xwttih-4 accordian__InnerPanel-sc-1xwttih-5 kbxNbH"
     >
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -201,7 +201,7 @@ exports[`Storyshots Accordian without options 1`] = `
         0-100
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -210,7 +210,7 @@ exports[`Storyshots Accordian without options 1`] = `
         100-200
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -219,7 +219,7 @@ exports[`Storyshots Accordian without options 1`] = `
         200-300
       </li>
       <li
-        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+        className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       >
         <input
           type="checkbox"
@@ -229,7 +229,7 @@ exports[`Storyshots Accordian without options 1`] = `
       </li>
     </ul>
     <li
-      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-3 dFEXuw"
+      className="accordian__AccordianItem-sc-1xwttih-1 accordian__AccordianButton-sc-1xwttih-2 IifVh"
       onClick={[Function]}
     >
       <input
